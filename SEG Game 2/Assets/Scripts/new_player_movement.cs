@@ -7,6 +7,7 @@ public class new_player_movement : MonoBehaviour
     // Start is called before the first frame update
     public Rigidbody rb;
     public float forwardForce = 1000;
+    Vector3 temp;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -15,6 +16,11 @@ public class new_player_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        temp = transform.localScale;
+        temp.x += Time.deltaTime/5;
+        temp.y += Time.deltaTime/5;
+        temp.z += Time.deltaTime/5;
+        transform.localScale = temp;
         // add a forward force
         if (Input.GetKey("w"))
         {
