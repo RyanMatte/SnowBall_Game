@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1105
-  m_MinSize: {x: 683, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 683, y: 348}
+  m_MaxSize: {x: 12008, y: 8048}
   vertical: 0
-  controlID: 127
+  controlID: 22
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1463
     height: 1105
-  m_MinSize: {x: 406, y: 498}
-  m_MaxSize: {x: 10002, y: 14048}
+  m_MinSize: {x: 406, y: 348}
+  m_MaxSize: {x: 8006, y: 8048}
   vertical: 1
-  controlID: 44
+  controlID: 23
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 45
+  controlID: 24
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,14 +242,14 @@ MonoBehaviour:
     y: 784
     width: 1463
     height: 321
-  m_MinSize: {x: 232, y: 274}
-  m_MaxSize: {x: 10002, y: 10024}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 102, y: 124}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -307,9 +307,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 576.1753, y: 389.66278, z: -592.34106}
+    m_Target: {x: 648.31995, y: 337.60522, z: -19.769272}
     speed: 2
-    m_Value: {x: 576.1753, y: 389.66278, z: -592.34106}
+    m_Value: {x: 648.31995, y: 337.60522, z: -19.769272}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -337,13 +337,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0030001237, y: -0.0036015809, z: -0.000011881657, w: -0.99998885}
+    m_Target: {x: 0.011998069, y: 0.008692948, z: -0.00011184016, w: 0.99989027}
     speed: 2
-    m_Value: {x: 0.0030001241, y: -0.0036015816, z: -0.000011881659, w: -0.99998903}
+    m_Value: {x: 0.011998069, y: 0.008692948, z: -0.00011184016, w: 0.99989027}
   m_Size:
-    m_Target: 253.73788
+    m_Target: 1069.9191
     speed: 2
-    m_Value: 253.73788
+    m_Value: 1069.9191
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -386,7 +386,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4edaffff6cdaffff82daffffb0daffff5edbffffd4dbfffff2dbffff08dcffff36dcffffe4dcffff2aeaffff64ebffff4cecffff6aecffff80ecffffaeecffff5cedffff06f2ffff24f2ffffbcf3ffffeef3ffffa0f4ffffdefbfffff8510000ae550000f47a00006c800000d481000092830000168500007c8600009c860000da86000042880000
+      m_ExpandedIDs: 9aa1ffffc0d1ffffdefbffffb81a0000581b00005e1c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -761,7 +761,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4edaffff6cdaffff82daffffb0daffff5edbffffd4dbfffff2dbffff08dcffff36dcffffe4dcffff2aeaffff64ebffff4cecffff6aecffff80ecffffaeecffff5cedffff06f2ffff24f2ffffbcf3ffffeef3ffffa0f4ffffdefbffff
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -823,20 +823,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/samueldaly/Documents/School/Winter 2020/SEG 3125/Project/SnowBall_Game/SEG
     Game 2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 104}
-    m_SelectedIDs: e4100000
-    m_LastClickedID: 4324
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 74140000
+    m_LastClickedID: 5236
     m_ExpandedIDs: 000000003c0c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -890,8 +890,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 5e1c0000
+    m_LastClickedInstanceID: 7262
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000163900004811000000000000
     m_RenameOverlay:

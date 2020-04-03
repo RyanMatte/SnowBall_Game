@@ -102,6 +102,7 @@
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\Scripts\Collision_Script.cs" />
+     <Compile Include="Assets\Scripts\GoalScript.cs" />
      <Compile Include="Assets\Scripts\Increase size.cs" />
      <Compile Include="Assets\Scripts\LevelOne.cs" />
      <Compile Include="Assets\Scripts\new_player_movement.cs" />

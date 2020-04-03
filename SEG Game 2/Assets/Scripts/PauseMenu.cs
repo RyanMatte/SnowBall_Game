@@ -49,14 +49,6 @@ public class PauseMenu : MonoBehaviour
           ScoreText.text = score.ToString();
         }
 
-
-
-        Debug.Log((p[1] - s[1]) - p[1] - s[1]);
-        Debug.Log(s[1]);
-        Debug.Log(p[1]);
-
-
-
     }
     public void Resume()
     {
